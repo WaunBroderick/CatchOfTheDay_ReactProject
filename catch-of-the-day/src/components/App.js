@@ -7,8 +7,8 @@ class App extends React.Component {
     render(){
         return(
             <div className="catch-of-the-day">
-            <div class="menu">
-            <Header/>
+            <div className="menu">
+            <Header tagline="Fresh Seafood Market"/>
             </div>
             <Order/>
             <Inventory/>
